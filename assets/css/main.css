@@ -1861,7 +1861,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.344);
   position: absolute;
   inset: 0;
 }
@@ -1874,7 +1874,7 @@ section {
 
 @media (max-width: 768px) {
   .hero .info {
-    padding: 0 50px;
+    
   }
 }
 
@@ -1907,8 +1907,8 @@ section {
 }
 
 .hero .info p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 
 .hero .info .btn-get-started {
@@ -2558,7 +2558,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("https://www.ekurhuleni.gov.za/wp-content/uploads/2021/10/Kwa-Thema-Entrance-Beautification-Project-Takes-Shape-1110x620.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
