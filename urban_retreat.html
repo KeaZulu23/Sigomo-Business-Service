@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Sigomo Business Services - Contact Page</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Detail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <!-- Favicons -->
   <link href="assets/img/SBS_Final_Logo.png" rel="icon">
   <link href="assets/img/SBS_Final_Logo.png" rel="apple-touch-icon">
@@ -28,14 +24,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-   
 </head>
-
-<body>
+<body class="bg-gray-100">
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-center" style="background-color: black;">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
@@ -45,85 +38,74 @@
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="project.html">Projects</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <div style="padding-top: 30px;">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/image\ 3.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-
-        <h2>Contact</h2>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Contact</li>
-        </ol>
-
+  <!-- Property Detail Section -->
+  <section class="container mx-auto px-4 mt-6">
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <!-- Property Images -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <img src="assets/img/Gugulethu/House 1.jpg" alt="Property Image" class="rounded-lg w-full">
+        <div class="grid grid-cols-2 gap-2">
+          <img src="assets/img/Gugulethu/House 2.jpg" alt="Image 1" class="rounded-lg">
+          <img src="assets/img/Gugulethu/House 3.jpg" alt="Image 2" class="rounded-lg">
+        </div>
       </div>
-    </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- Property Information -->
+      <div class="mt-6">
+        <h2 class="text-2xl font-bold text-gray-800">The Urban Retreat</h2>
+        <p class="text-gray-600 mt-2">Sharon Park Lifestyle Estate</p>
+         
 
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Our Address</h3>
-              <p>13629 Moroosi Street, KwaThema ext 2, Springs, 1575</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>ignatia.mtsweni@sigomo.co.za</p>
-              <p>siphiwe.mtsweni@sigomo.co.za</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+27 74 418 1970</p>
-              <p>+27 67 754 4853</p>
-            </div>
-          </div><!-- End Info Item -->
-
+        <!-- Features -->
+        <div class="mt-4">
+          <h3 class="text-lg font-semibold text-gray-800">Features:</h3>
+          <ul class="list-disc list-inside text-gray-600 mt-2">
+            <li>3 Bedrooms</li>
+            <li>2 Bathrooms</li>
+            <li>Open-Plan Kitchen and Lounge</li>
+            <li>Private Yard</li>
+            <li>Secure living with 24/7 access control and patrols.</li>
+          </ul>
         </div>
 
-        <div class="row gy-4 mt-1">
-
-          <div class="justify-content-center">
-            <div class="text-center">
-              <a href="https://wa.me/+27744181970" target="_blank" class="btn btn-primary">Chat on WhatsApp</a>
-            </div>
-          </div><!-- End Contact Form -->
-
-          <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.5790281221825!2d28.416709599999997!3d-26.307743799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9526961b44b89f%3A0x258e51db18dad0b7!2s13629%20Moroosi%20St%2C%20Kwa-Thema%20Phase%201%2C%20Springs%2C%201575!5e0!3m2!1sen!2sza!4v1690312568567!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div><!-- End Google Maps -->
-
+        <!-- Description -->
+        <div class="mt-6">
+          <h3 class="text-lg font-semibold text-gray-800">Description:</h3>
+          <p class="text-gray-600 mt-2">
+            Discover your dream home in the serene and secure Sharon Park Lifestyle Estate. 
+            Our modern properties are designed with your comfort and convenience in mind, 
+            offering the perfect balance of style and functionality.
+          </p>
         </div>
 
+        <!-- Contact Section -->
+        <!-- Contact Section -->
+        <div class="mt-6">
+          <a href="">
+            <button class="bg-green-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-600">
+                Download Floor Plan
+            </button>
+          </a>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
+    </div>
+  </section>
+</div>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -207,6 +189,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  
 </body>
-
 </html>
